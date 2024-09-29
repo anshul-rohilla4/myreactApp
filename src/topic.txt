@@ -1,0 +1,24 @@
+css style{
+    1.external
+    2.modules
+    3.inline
+}
+
+props{
+    read only property that area shared between components.
+    a parent component can send data to child component.
+    <Component key=vale/>
+}
+
+propsTypes{
+    a mechanism that ensures that the passed value is of the correct datatype.
+}
+
+defaultProps{
+    default values fir props in case thay are not passed fromthe parent component
+}
+
+conditional rendering{
+    allows you to control what gets rendered in your application based on certain conditions
+    (show,hide,or change components)
+}
