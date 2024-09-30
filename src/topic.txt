@@ -26,11 +26,11 @@ conditional rendering{
 click events{
     an interaction when a user clicks on a specific element.
     we can respond to clicks by passing a callback to the onClick event handler.
-}
+}ProfilePicture.jsx  , Button1.jsx
 
 React hook{
     special func that allows functional components to use react features without writing class components.
-}
+}  MyComponent.jsx
 
 useState(){
     a react hook that allows the creation of a stateful variable AND a setter func to update its value in the virtual DOM.

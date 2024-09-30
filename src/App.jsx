@@ -5,7 +5,7 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import Button1 from './Button1.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
-
+import MyComponent from './MyComponent.jsx' 
 
 function App() {
 
@@ -46,6 +46,8 @@ function App() {
     <Button1/>
 
     <ProfilePicture/>
+
+    <MyComponent/>
     
     
     
