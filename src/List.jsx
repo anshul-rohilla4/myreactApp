@@ -36,7 +36,7 @@ function List(props){
         </>);           
 }
 
-List.PropTypes={
+List.propTypes={
     category:PropTypes.string,
     items:PropTypes.arrayOf(PropTypes.shape({id:PropTypes.number,
                                             category:PropTypes.string,

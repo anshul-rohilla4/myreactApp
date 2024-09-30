@@ -3,8 +3,8 @@ import Button from './Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
-
-
+import Button1 from './Button1.jsx'
+import ProfilePicture from './ProfilePicture.jsx'
 
 
 function App() {
@@ -42,6 +42,14 @@ function App() {
 
     {vegetables.length>0 &&<List items={vegetables} category="Vegetables"/>}
     {/* as the second part of the statement will always be true so the return depends on length property only */}
+    
+    <Button1/>
+
+    <ProfilePicture/>
+    
+    
+    
+    
     </>
       
 

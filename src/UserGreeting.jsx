@@ -12,7 +12,7 @@ function UserGreeting(props){
         :logInPromt);
 }
 
-UserGreeting.prototype={
+UserGreeting.propTypes={
     isLoggedIn:PropTypes.bool,
     username:PropTypes.string,
 }
