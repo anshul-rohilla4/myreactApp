@@ -92,3 +92,48 @@ body{
   transition: 200ms ease;
 }
 
+.Button1{
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: antiquewhite ;
+  border: none;
+  display: block;
+}
+
+
+.MyComponentDiv{
+  display:flex;
+  flex-direction: column;
+  max-width:fit-content;
+}
+
+.MyComponentButton{
+  display: flex;
+  margin: 2px;
+  padding: 5px 10px;
+  background-color:aquamarine;
+  border: none;
+}
+
+.counterContainer{
+  display: block;
+  background: radial-gradient(circle, #ffee00, #00ff2a);
+  max-width: fit-content;
+  padding: 10px 20px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  transition: 1s;
+}
+.counterContainerButton{
+  padding: 3px 7px;
+  margin: 5px;
+  background-color: rgba(0, 255, 170, 0.834);
+  border: none;
+  font-size: 1em;
+  border-radius: 10px;
+  transition: .8s;
+}
+.counterContainerButton:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.722);
+}

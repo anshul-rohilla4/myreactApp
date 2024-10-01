@@ -36,7 +36,7 @@ function Button1(){
         <>
         {/* <button onClick={()=>handleClick3(name)}>Click me 😼</button> */}
         
-        <button onDoubleClick={(e)=>handleClick4(e)}>Click Me</button>
+        <button onDoubleClick={(e)=>handleClick4(e) } className="Button1">Click Me</button>
         
         </>
 
