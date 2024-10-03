@@ -34,5 +34,10 @@ React hook{
 
 useState(){
     a react hook that allows the creation of a stateful variable AND a setter func to update its value in the virtual DOM.
-}
+} Counter.jsx
 
+onChange{
+    event handler used primarily with from elements.
+    ex. <input> ,<textarea> 
+    Triggers a funstion every time the value of the input changes
+} MyComponent2.jsx
