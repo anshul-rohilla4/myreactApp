@@ -1,12 +1,14 @@
-import Card from './Card.jsx'
-import Button from './Button.jsx'
-import Student from './Student.jsx'
-import UserGreeting from './UserGreeting.jsx'
-import List from './List.jsx'
-import Button1 from './Button1.jsx'
-import ProfilePicture from './ProfilePicture.jsx'
-import MyComponent from './MyComponent.jsx' 
-import Counter from './Counter.jsx'
+import Card from './componentsSrc/Card.jsx'
+import Button from './componentsSrc/Button.jsx'
+import Student from './componentsSrc/Student.jsx'
+import UserGreeting from './componentsSrc/UserGreeting.jsx'
+import List from './componentsSrc/List.jsx'
+import Button1 from './componentsSrc/Button1.jsx'
+import ProfilePicture from './componentsSrc/ProfilePicture.jsx'
+import MyComponent from './componentsSrc/MyComponent.jsx' 
+import Counter from './componentsSrc/Counter.jsx'
+import MyComponent2 from './componentsSrc/MyComponent2.jsx'
+import ColorPicker from './componentsSrc/ColorPicker.jsx'
 
 function App() {
 
@@ -33,7 +35,7 @@ function App() {
 
     <Student name="spongBob" age={38} isStudent={true}/>
     <Student/>{/* default props are passed */}
-    <Student name="llama"/>{/*name value is passed reat all are assigned default props */}
+    <Student name="llama"/>{/*name value is passed rest all are assigned default props */}
 
 
     <UserGreeting isLoggedIn={false} username="anshul"/>
@@ -51,6 +53,10 @@ function App() {
     <MyComponent/>
 
     <Counter/>
+
+    <MyComponent2/>
+
+    <ColorPicker/>
     
     
     

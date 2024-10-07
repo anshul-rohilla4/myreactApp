@@ -1,5 +1,5 @@
 function ProfilePicture(){
-    const imageUrl='./src/assets/profilePic.png'
+    const imageUrl='src/assets/profilePic.png'
 
     const handleClick=(e)=>e.target.style.display="none";{/* disapper on double click*/}
 

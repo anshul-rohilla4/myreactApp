@@ -15,7 +15,7 @@ propsTypes{
 }
 
 defaultProps{
-    default values fir props in case thay are not passed fromthe parent component
+    default values for props in case thay are not passed fromthe parent component
 }
 
 conditional rendering{
@@ -38,6 +38,14 @@ useState(){
 
 onChange{
     event handler used primarily with from elements.
-    ex. <input> ,<textarea> 
+    ex. <input/> ,<textarea/> ,<select/>,<radio/>
     Triggers a funstion every time the value of the input changes
 } MyComponent2.jsx
+
+updater funstion{
+    a funstion passed as an argument to setState() usually
+    ex. setYear(year+1)
+
+    allow for safe updates based on the previous state .
+    used with multiple state updates and asynchronous functions
+}
